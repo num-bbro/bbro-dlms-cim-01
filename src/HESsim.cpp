@@ -329,6 +329,7 @@ bool serviceConnect(bool reconnect, const std::string& meterURL)
 std::vector<std::string> meters{};
 
 int main(int argc, char *argv[]) {
+    std::cout << "=========== HESSIM ==========" << std::flush;
     int port;
     if (argc > 1) {
         port = std::atoi(argv[1]);
